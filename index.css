@@ -159,7 +159,7 @@ body {
   width: 100%;
 }
 
-.caseText .title a 
+.caseText .title, 
 .caseText .title a {
   font-weight: bold;
   font-size: 35px;
