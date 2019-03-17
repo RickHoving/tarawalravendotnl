@@ -8,8 +8,10 @@
     <style>
       @import url("https://use.typekit.net/jur3isd.css");
     </style>
+    <script src="../scripts/umbraco-case.js"></script>
 </head>   
 <body>
+    <div id="makeup"></div>
     <div id="name">
         <p>Tara</br>Walraven Borst</br></p>
         <div id="links">
@@ -17,28 +19,53 @@
             <a target="_blank" href="https://www.linkedin.com/in/tara-walraven-borst-01628630/"><img src="../resources/linkedin.svg"/></a>
         </div>
     </div>
-    <div id="makeup"></div>
     <div id="cases">Cases</div>
     <div id="arrowUp" onclick="scrollUp()">
         <img src="../resources/chevron-up.svg" />
     </div>
-    <div id="mainContainer">
-        <div id="caseDescription">
-          <div id="description">
-            <p><b>Datum</b></br>27 November 2018</p>
-            <p><b>Tags</b></br>concept | marketing | dashboards</br>planning | publishers</p>
-            <div id="functieAndTools">
-              <p><b>Functie</b></br>Ux Design</br>Visual Design</p>
-              <p><b>Tools</b></br>Sketch</br>Invision</p>
+    <div class="fullWidthContainter" id="caseDescriptionContainer">
+        <div class="container">
+            <div id="caseDescription">
+            <div id="description">
+                <p><b>Datum</b></br>27 November 2018</p>
+                <p><b>Tags</b></br>concept | marketing | dashboards</br>planning | publishers</p>
+                <div id="functieAndTools">
+                <p><b>Functie</b></br>Ux Design</br>Visual Design</p>
+                <p><b>Tools</b></br>Sketch</br>Invision</p>
+                </div>
             </div>
-          </div>
-          <div id="picture"><img src="../resources/umbraco-laptop.jpg"/></div>
+            <div id="picture"><img src="../resources/umbraco-laptop.jpg"/></div>
+            </div>
         </div>
-        <div id="pictures">
-          <img src="../resources/umbraco-planner-dashboard1.jpg"/>
-          <img src="../resources/umbraco-planner-dashboard2.jpg"/>
+    </div>
+    <div class="fullWidthContainter">
+        <div class="container">
+            <div id="pictures">
+                <img src="../resources/umbraco-planner-dashboard1.jpg"/>
+                <img src="../resources/umbraco-planner-dashboard2.jpg"/>
+            </div>
         </div>
-        <img id="pictureDashboardWithLaptop" src="../resources/laptop-dashboard.png" />
+    </div>
+    <div class="fullWidthContainter" id="laptopDashboardContainer">
+        <div class="container">
+            <img id="pictureDashboardWithLaptop" src="../resources/laptop-dashboard.png" />
+        </div>
+    </div>
+    <div class="fullWidthContainter" id="nextCaseContainer">
+        <div class="container">
+            <div id="nextCase">
+                <div id="nextCaseDescription">
+                    <p id="title">Volgende case: Funus</p>
+                    <p>branding, webdesign, digital</p>
+                    <div id="chevronRight">
+                        <img src="../resources/arrow-right.svg"/>
+                    </div>
+                </div>
+                <div id="nextCaseImage">
+                    <img src="../resources/funus.jpg" />
+                </div>
+            </div>
+        </div>
     </div>
     <div id="whoAmI">
         <div id="whoAmIContent">
