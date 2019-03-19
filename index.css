@@ -49,6 +49,10 @@ body {
   font-weight: bold;
 }
 
+#name a {
+  text-decoration: none;
+}
+
 #cases {
   position: absolute;
   top: 50px;

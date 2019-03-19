@@ -17,6 +17,10 @@ body {
   padding: 64px;
 }
 
+#name a {
+  text-decoration: none;
+}
+
 #name {
   position: absolute;
   left: 50px;

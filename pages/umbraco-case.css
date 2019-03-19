@@ -24,6 +24,10 @@ body {
   padding-bottom: 4px;
 }
 
+#name a {
+  text-decoration: none;
+}
+
 #name > p {
   border-bottom: 2px solid #FF3366;
   font-weight: bold;
@@ -137,6 +141,10 @@ body {
 #title {
   font-size: 24px;
   font-weight: bold;
+}
+
+#title > a {
+  text-decoration: none;
 }
 
 #nextCaseDescription {
