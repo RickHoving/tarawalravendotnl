@@ -235,6 +235,24 @@ body {
     border: 2px solid #18181E;
   }
 
-  .subtitle{
+  #button-funus{
+    height: 50px;
+    text-align: center;
+    width: 160px;
+    background: transparent;
+    border: 2px solid #18181E;
+    color:#18181E;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+  
+  #button-funus:hover {
+    color:white;
+    background: #18181E;
+    border: 2px solid #18181E;
+  }
+  
+  .subtitle {
     padding-bottom: 12px;
   }
