@@ -220,11 +220,11 @@ body {
 #button-umbraco {
     height: 50px;
     text-align: center;
-    width: 115px;
+    width: 160px;
     background: transparent;
     border: 2px solid #18181E;
     color:#18181E;
-    font-size:12px;
+    font-size: 16px;
     font-weight:bold;
     cursor: pointer;
   }
