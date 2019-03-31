@@ -188,3 +188,9 @@ body {
 #laptopDashboardContainer {
   background-color: #FAFAFA;
 }
+#umbracotitle {
+  color: #18181E;
+  font-family: akagi-pro, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
