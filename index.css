@@ -18,8 +18,8 @@ body {
 }
 
 #makeup {
-  width: 800px;
-  height: 900px;
+  width: 1519px;
+  height: 970px;
   background-color: #FFFAF0;
   position: absolute;
   top: 115px;
@@ -217,3 +217,24 @@ body {
   text-decoration: none;
   font-weight: normal;
 }
+#button-umbraco {
+    height: 50px;
+    text-align: center;
+    width: 115px;
+    background: transparent;
+    border: 2px solid #18181E;
+    color:#18181E;
+    font-size:12px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  #button-umbraco:hover {
+    color:white;
+    background: #18181E;
+    border: 2px solid #18181E;
+  }
+
+  .subtitle{
+    padding-bottom: 12px;
+  }
