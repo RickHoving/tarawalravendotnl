@@ -46,11 +46,6 @@ body {
   text-decoration: none;
 }
 
-#title > a:hover {
-  border-bottom: 2px solid #FF3366;
-}
-
-
 #whoAmI {
   position: relative;
   width: 100%;
