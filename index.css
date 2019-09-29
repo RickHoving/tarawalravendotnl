@@ -213,6 +213,12 @@ body {
   font-size: 12px;
 }
 
+#footerNamemail {
+  padding-top: 80px;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
 .caseText a {
   text-decoration: none;
   font-weight: normal;
@@ -229,7 +235,7 @@ body {
     cursor: pointer;
   }
 
-  #button-umbraco:hover {
+  #button-umbracof {
     color:white;
     background: #18181E;
     border: 2px solid #18181E;
