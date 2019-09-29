@@ -88,16 +88,11 @@ body {
 #caseDescription {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 188px;
 }
 
 #picture > img {
   width: 700px;
-}
-
-#description {
-  position: relative;
-  top: 150px;
 }
 
 #pictures {
@@ -110,9 +105,19 @@ body {
   height: 50%;
 }
 
+#funus-example {
+  display: flex;
+  justify-content: center;
+}
+
+#funus-example > img {
+  max-width: 700px;
+  margin-top: 70px;
+  margin-bottom: -230px;
+}
+
 #pictureDashboardWithLaptop {
-  width: 500px;
-  margin-left: calc(50% - 250px);
+  max-height: 300px;
 }
 
 #functieAndTools {
@@ -167,21 +172,17 @@ body {
 }
 
 #makeup {
-  width: 720px;
-  height: 787px;
-  background-color: #FAFAFA;
-  position: absolute;
-  top: 115px;
-  left: 0;
-  z-index: -1;s
+  width: 1520px;
+    height: 599px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    z-index: -1;
 }
 
 .fullWidthContainer {
   width:100%;
-}
-
-#laptopDashboardContainer {
-  background-color: #FAFAFA;
 }
 
 #funustitle {
