@@ -41,6 +41,7 @@ body {
   left: 50px;
   top: 20px;
   padding-bottom: 4px;
+  letter-spacing: 2px;
 }
 
 #name > p {
