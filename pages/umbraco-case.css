@@ -107,8 +107,9 @@ body {
 }
 
 #pictureDashboardWithLaptop {
-  width: 500px;
+  max-height: 300px;
   margin-left: calc(50% - 250px);
+  margin-top: 188px;
 }
 
 #functieAndTools {
@@ -168,13 +169,13 @@ body {
 }
 
 #makeup {
-  width: 720px;
-  height: 787px;
+  width: 1520px;
+  height: 599px;
   background-color: #FAFAFA;
   position: absolute;
-  top: 115px;
+  top: 170px;
   left: 0;
-  z-index: -1;s
+  z-index: -1;
 }
 
 .fullWidthContainer {

@@ -19,7 +19,6 @@ body {
 
 #makeup {
   width: 1519px;
-  height: 970px;
   background-color: #FFFAF0;
   position: absolute;
   top: 115px;
@@ -35,7 +34,6 @@ body {
   font-size: 25px;
   line-height: 40px;
   text-align: center;
-}
 }
 
 #name {
@@ -110,7 +108,6 @@ body {
   flex-direction: column;
   align-items: flex-end;
   border-top: 2px solid #FF3366;
-  width: 80px;
 }
 
 #moreCases > p {
@@ -209,7 +206,7 @@ body {
   padding-top: 30px;
 }
 
-#footerName {
+#footerName > p {
   padding-top: 80px;
   font-weight: bold;
   font-size: 12px;
@@ -219,42 +216,26 @@ body {
   text-decoration: none;
   font-weight: normal;
 }
-#button-umbraco {
-    height: 50px;
-    text-align: center;
-    width: 160px;
-    background: transparent;
-    border: 2px solid #18181E;
-    color:#18181E;
-    font-size: 16px;
-    font-weight:bold;
-    cursor: pointer;
-  }
+#button-umbraco,
+#button-funus {
+  height: 50px;
+  text-align: center;
+  width: 160px;
+  background: transparent;
+  border: 2px solid #18181E;
+  color:#18181E;
+  font-size: 16px;
+  font-weight:bold;
+  cursor: pointer;
+}
 
-  #button-umbracof {
-    color:white;
-    background: #18181E;
-    border: 2px solid #18181E;
-  }
+#button-umbraco:hover,
+#button-funus:hover {
+  color:white;
+  background: #18181E;
+  border: 2px solid #18181E;
+}
 
-  #button-funus{
-    height: 50px;
-    text-align: center;
-    width: 160px;
-    background: transparent;
-    border: 2px solid #18181E;
-    color:#18181E;
-    font-size: 16px;
-    font-weight:bold;
-    cursor: pointer;
-  }
-  
-  #button-funus:hover {
-    color:white;
-    background: #18181E;
-    border: 2px solid #18181E;
-  }
-  
-  .subtitle {
-    padding-bottom: 12px;
-  }
+.subtitle {
+  padding-bottom: 12px;
+}
