@@ -206,7 +206,7 @@ body {
   padding-top: 30px;
 }
 
-#footerName > p {
+#footerName {
   padding-top: 80px;
   font-weight: bold;
   font-size: 12px;
