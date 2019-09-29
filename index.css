@@ -34,6 +34,8 @@ body {
 #introTextContainer > p {
   font-size: 30px;
   line-height: 40px;
+  text-align: center;
+}
 }
 
 #name {
