@@ -1,0 +1,193 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #18181E;
+  font-family: akagi-pro, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  width: 1280px;
+  padding: 64px;
+}
+
+#name a {
+  text-decoration: none;
+}
+
+#name {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  padding-bottom: 4px;
+}
+
+#name > p {
+  border-bottom: 2px solid #FF3366;
+  font-weight: bold;
+}
+
+#arrowUp {
+  position: fixed;
+  right: 30px;
+  top: 80vh;
+  z-index: 1;  
+  transition: opacity 0.2s linear;
+  cursor: pointer;
+}
+
+#title > a {
+  text-decoration: none;
+}
+
+#whoAmI {
+  position: relative;
+  width: 100%;
+  background-color: #18181E;
+}
+
+#whoAmI * {
+  color: #FFFFFF;
+}
+
+#whoAmIContent {
+  width: 1280px;
+  margin: auto;
+  padding-bottom: 44px;
+}
+
+#links{
+  display: flex;
+  align-items: center;
+}
+
+#links > a > img {
+  margin: 8px 8px 0 0;
+  height: 25px;
+  width: 25px;
+}
+
+#footerName {
+  padding-top: 44px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#cases {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+#caseDescription {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 188px;
+}
+
+#picture > img {
+  width: 700px;
+}
+
+#pictures {
+  padding-top: 100px;
+  display: flex;
+}
+
+#pictures > img {
+  width: 50%;
+  height: 50%;
+}
+
+#funus-example {
+  display: flex;
+  justify-content: center;
+}
+
+#funus-example > img {
+  max-width: 700px;
+  margin-top: 70px;
+  margin-bottom: -230px;
+}
+
+#pictureDashboardWithLaptop {
+  max-height: 300px;
+}
+
+#functieAndTools {
+  display: flex;
+}
+
+#functieAndTools > p {
+  padding-right: 24px;
+}
+
+#caseDescription p {
+  padding-top: 32px;
+}
+
+#nextCase {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+}
+#nextCase > div > img {
+  width: 60%;
+}
+
+#nextCaseImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#nextCaseDescription {
+  width: 400px;
+}
+
+#chevronRight {
+  width: 100px;
+  height: 30px;
+  border-top: 2px solid #FF3366;
+  margin-top: 24px;
+}
+
+#chevronRight > img {
+  float: right;
+}
+
+#nextCaseContainer {
+  background-color: #FFFAF0;
+}
+
+#makeup {
+  width: 1520px;
+    height: 599px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 170px;
+    left: 0;
+    z-index: -1;
+}
+
+.fullWidthContainer {
+  width:100%;
+}
+
+#funustitle {
+  color: #18181E;
+  font-family: akagi-pro, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
