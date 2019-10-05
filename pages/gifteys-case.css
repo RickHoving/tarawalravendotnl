@@ -29,7 +29,6 @@ body {
 }
 
 #name > p {
-  border-bottom: 2px solid #FF3366;
   font-weight: bold;
 }
 
@@ -81,7 +80,7 @@ body {
 
 #cases {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 50px;
 }
 
@@ -96,13 +95,14 @@ body {
 }
 
 #pictures {
-  padding-top: 100px;
+  padding-top: 120px;
   display: flex;
 }
 
 #pictures > img {
   width: 50%;
   height: 50%;
+  margin-right: 10px;
 }
 
 #funus-example {
@@ -165,10 +165,6 @@ body {
 
 #chevronRight > img {
   float: right;
-}
-
-#nextCaseContainer {
-  background-color: #FFFAF0;
 }
 
 #makeup {

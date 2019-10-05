@@ -29,7 +29,6 @@ body {
 }
 
 #name > p {
-  border-bottom: 2px solid #FF3366;
   font-weight: bold;
 }
 
@@ -81,7 +80,7 @@ body {
 
 #cases {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 50px;
 }
 
@@ -190,4 +189,3 @@ body {
   font-family: akagi-pro, sans-serif;
   font-weight: bold;
   font-size: 35px;
-}

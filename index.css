@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #18181E;
+  color: #48484A;
   font-family: akagi-pro, sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -44,7 +45,6 @@ body {
 }
 
 #name > p {
-  border-bottom: 2px solid #FF3366;
   font-weight: bold;
 }
 
@@ -55,8 +55,9 @@ body {
 
 #cases {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 50px;
+  font-weight: bold;
 }
 
 #links{
@@ -71,7 +72,7 @@ body {
 }
 
 #KPIs {
-  padding-top: 150px;
+  padding-top: 110px;
   display: flex;
   justify-content: space-between;
 }
@@ -86,13 +87,14 @@ body {
 
 .measure {
   margin-top: 16px;
-  background-color: #FF3366;
+  background-color: #EEF0F6;
   width: 150px;
   height: 10px;
 }
 
 .done {
-  background-color: #18181E;
+  background-color: #48484A
+  ;
   height: 100%;
   transition: width 0.5s linear;
   width: 0px;
@@ -108,6 +110,10 @@ body {
   flex-direction: column;
   align-items: flex-end;
   border-top: 2px solid #FF3366;
+}
+
+#project {
+border-bottom: 0;
 }
 
 #moreCases > p {
@@ -151,7 +157,7 @@ body {
 }
 
 #umbraco {
-  border-top: 2px solid #FF3366;
+  border-top: 2px solid #F4EFE9;
 }
 
 .casePicture {
@@ -232,10 +238,34 @@ body {
 #button-umbraco:hover,
 #button-funus:hover {
   color:white;
-  background: #18181E;
-  border: 2px solid #18181E;
+  background: #48484A;
+  border: 2px solid #48484A;
 }
 
 .subtitle {
   padding-bottom: 12px;
+}
+
+.projecten {
+  width: 100px;
+  color: #18181E;
+}
+
+.projecten-title {
+  font-size: 18px;
+}
+
+.projecten-bar {
+  height: 2px;
+  width: 0%;
+  background-color: #7ED5EA;
+  transition: width 0.5s linear;
+}
+
+.projecten:hover > .projecten-bar {
+  width: 100%;
+}
+
+#project-overzicht {
+  width: 150px;
 }
