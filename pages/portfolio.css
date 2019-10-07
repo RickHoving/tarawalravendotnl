@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #18181E;
+  color: #48484A;
   font-family: akagi-pro, sans-serif;
 }
 
@@ -14,7 +14,6 @@ body {
 #makeup {
   width: 1520px;
     height: 599px;
-    background-color: #FAFAFA;
     position: absolute;
     top: 170px;
     left: 0;
@@ -33,7 +32,6 @@ body {
 }
 
 #name > p {
-  border-bottom: 2px solid #FF3366;
   font-weight: bold;
 }
 
