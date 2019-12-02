@@ -94,5 +94,4 @@ body {
   object-fit: contain;
   max-height: 400px;
   opacity: 1;
-  transition: opacity 0.5s linear;
 }
