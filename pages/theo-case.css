@@ -101,10 +101,21 @@ body {
 }
 
 #pictures > img {
-  width: 50%;
+  width: 80%;
   height: 50%;
   display: flex;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pictures-2{
+  width: 80%;
+  height: 50%;
+  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #pictureDashboardWithLaptop {
@@ -186,7 +197,7 @@ body {
 #laptopDashboardContainer {
   background-color: #FAFAFA;
 }
-#umbracotitle {
+#theotitle {
   color: #18181E;
   font-family: akagi-pro, sans-serif;
   font-weight: bold;

@@ -156,7 +156,7 @@ border-bottom: 0;
   border-top: 2px solid #DAE1E7;
 }
 
-#umbraco {
+#theo {
   border-top: 2px solid #F4EFE9;
 }
 
@@ -222,7 +222,7 @@ border-bottom: 0;
   text-decoration: none;
   font-weight: normal;
 }
-#button-umbraco,
+#button-theo,
 #button-funus {
   height: 50px;
   text-align: center;
@@ -235,7 +235,7 @@ border-bottom: 0;
   cursor: pointer;
 }
 
-#button-umbraco:hover,
+#button-theo:hover,
 #button-funus:hover {
   color:white;
   background: #48484A;
