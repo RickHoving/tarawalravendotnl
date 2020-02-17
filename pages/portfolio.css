@@ -93,5 +93,9 @@ body {
   margin: 25px;
   object-fit: contain;
   max-height: 400px;
-  opacity: 1;
+  opacity: 0;
+}
+
+.underline {
+  text-decoration: underline;
 }

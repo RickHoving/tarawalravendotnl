@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #18181E;
+  text-decoration: none;
   font-family: akagi-pro, sans-serif;
 }
 
@@ -15,6 +16,32 @@ body {
   margin: auto;
   width: 1280px;
   padding: 64px;
+}
+.projecten-title {
+  font-size: 18px;
+}
+
+.projecten-bar {
+  height: 2px;
+  width: 0%;
+  background-color: #7ED5EA;
+  transition: width 0.5s linear;
+}
+
+.projecten:hover > .projecten-bar {
+  width: 100%;
+}
+
+#cases {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  font-weight: bold;
+}
+
+.projecten {
+  width: 100px;
+  color: #18181E;
 }
 
 #name a {

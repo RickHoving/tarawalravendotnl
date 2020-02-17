@@ -5,6 +5,7 @@
   box-sizing: border-box;
   color: #18181E;
   font-family: akagi-pro, sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -30,6 +31,33 @@ body {
 
 #name > p {
   font-weight: bold;
+}
+
+.projecten-title {
+  font-size: 18px;
+}
+
+.projecten-bar {
+  height: 2px;
+  width: 0%;
+  background-color: #7ED5EA;
+  transition: width 0.5s linear;
+}
+
+.projecten:hover > .projecten-bar {
+  width: 100%;
+}
+
+#cases {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  font-weight: bold;
+}
+
+.projecten {
+  width: 100px;
+  color: #18181E;
 }
 
 #arrowUp {
