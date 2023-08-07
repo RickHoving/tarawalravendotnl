@@ -12,44 +12,62 @@
     <script src="../scripts/portfolio.js"></script>
 </head>   
 <body>
-    <div id="makeup"></div>
-    <div id="name">
-        <p><a href="../index.html">Tara</br>Walraven Borst</br></a></p>
-        <div id="links">
-            <a target="_blank" href="https://www.instagram.com/taraphotography112/"><img src="../resources/insta.svg"/></a>
-            <a target="_blank" href="https://www.linkedin.com/in/tara-walraven-borst-01628630/"><img src="../resources/linkedin.svg"/></a>
+  <div id="menu" class="full-width">
+    <div class="center">
+        <div id="name">
+            <p><a href="../index.html">Tara</br>Walraven Borst</br></a></p>
+            <div id="links">
+                <a target="_blank" href="https://www.instagram.com/taraphotography112/"><img src="../resources/shared/insta.svg"/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/tara-walraven-borst-01628630/"><img src="../resources/shared/linkedin.svg"/></a>
+            </div>
         </div>
+        <div id="makeup-top"></div>
+        <div class="portfolio" id="portfolio">
+            <a href="portfolio.html"><div class="portfolio-title">Portfolio.</div></a>
+            <div class="portfolio-bar"></div>
+        </div>
+        <!-- <div class="whoami" id="whoami">
+            <a href="pages/whoami.html"><div class="whoami-title">Wie ben ik.</div></a>
+            <div class="whoami-bar"></div>
+        </div> -->
     </div>
+  </div>
     <div id="arrowUp" onclick="scrollUp()">
         <img src="../resources/chevron-up.svg" />
     </div>
-    <div id="mainContainer">
-      <div id="pageTitle">Portfolio</div>
-      <div id="categories">
-        <span id="designs" onclick="show('1')">Designs</span>
-        <span id="fotografie" onclick="show('2')">Fotografie</span>
+    <div id="makeup"></div>
+    <div class="full-width">
+      <div class="center" id="page-header">
+        <div id="page-title">Wat ik allemaal maak.</div>
+        <div id="page-subtitle">Ik zet mijn creativiteit om in beeld, kleuren en mooie plaatjes.</div>
+        <div id="categories">
+          <span id="designs" onclick="show('1')">Designs</span>
+          <span id="fotografie" onclick="show('2')">Fotografie</span>
+        </div>
       </div>
     </div>
-    <div id="pictures">
-      <a href="./theo-case.html"><img data-cat="1" class="picture" src="../resources/portfolio 4kant/theomijergroepslessen.jpg"/></a>
-      <a href="./funus-case.html"><img data-cat="1" class="picture" src="../resources/portfolio 4kant/funushome.jpg"/></a>
-      <a href="./gifteys-case.html"><img data-cat="1" class="picture" src="../resources/portfolio 4kant/gifteysuitleg.jpg"/></a>
-      <a href="./keitv.html"><img data-cat="1" class="picture" src="../resources/portfolio 4kant/keitv.jpg"/></a>
-      <a href="./logo.html"><img data-cat="1" class="picture" src="../resources/portfolio 4kant/logos.jpg"/></a>
+    <div class="full-width">
+      <div id="pictures" class="center">
+        <img data-cat="1" class="picture" src="../resources/portfolio/jppunt.jpg"/>
+        <img data-cat="1" class="picture" src="../resources/portfolio/collaboration.jpg"/>
+        <a href="./theo-case.html"><img data-cat="1" class="picture" src="../resources/portfolio/theobudo.jpg"/></a>
+        <img data-cat="1" class="picture" src="../resources/portfolio/fit2move.jpg"/>      
+        <a href="./keitv.html"><img data-cat="1" class="picture" src="../resources/portfolio/keitv.jpg"/></a>
+        <a href="./funus-case.html"><img data-cat="1" class="picture" src="../resources/portfolio/funus.jpg"/></a>
+        <a href="./gifteys-case.html"><img data-cat="1" class="picture" src="../resources/portfolio/giftes.jpg"/></a>
 
-      <img data-cat="2" class="picture" src="../resources/portfolio/boat.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/old.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/women.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/Fam photo (8).jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/Fam photo (10).jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/Fam photo (23).jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/brillen.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/milk&cookies.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/nuts.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/justin.jpg"/>
-      <img data-cat="2" class="picture" src="../resources/portfolio/Lente-gray.jpg"/>
-      
+        <img data-cat="2" class="picture" src="../resources/portfolio/boat.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/old.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/women.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/Fam photo (8).jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/Fam photo (10).jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/Fam photo (23).jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/brillen.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/milk&cookies.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/nuts.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/justin.jpg"/>
+        <img data-cat="2" class="picture" src="../resources/portfolio/Lente-gray.jpg"/>
+      </div>
     </div>
-    
 </body>
 </html>

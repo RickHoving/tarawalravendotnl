@@ -3,21 +3,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #48484A;
+  color: #18181E;
   font-family: akagi-pro, sans-serif;
+  text-decoration: none;
 }
 
 body {
   position: relative;
+  background-color: #fafafa;
 }
 
-#makeup {
-  width: 1520px;
-    height: 599px;
-    position: absolute;
-    top: 170px;
-    left: 0;
-    z-index: -1;
+.full-width {
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  width: 1280px;
+}
+#portfolio, #whoami {
+  position: absolute;
+  top: 40px;
+  font-weight: bold;
+}
+
+#portfolio {
+  right: 200px;
+}
+
+#whoami {
+  right: 50px;
 }
 
 #name a {
@@ -55,24 +70,29 @@ body {
   width: 25px;
 }
 
-#pageTitle {
+#page-title {
   font-size: 30px;
   font-weight: bold;
-  width: 100%;
-  text-align: center;
 }
 
-#mainContainer {
-  margin: auto;
-  width: 1280px;
-  padding: 64px;
+#makeup {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255,250,240);
+  z-index: -1;
 }
 
 #categories {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 50px;
   font-weight: bold;
+}
+
+#designs {
+  padding-right: 50px;
 }
 
 #categories > span {
@@ -85,17 +105,23 @@ body {
 
 #pictures {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .picture {
-  margin: 25px;
   object-fit: contain;
-  max-height: 400px;
+  height: 400px;
+  width: 400px;
   opacity: 0;
+  margin: 15px 0;
 }
 
 .underline {
   text-decoration: underline;
+}
+
+#page-header {
+  height: 300px;
+  padding-top: 150px;
 }

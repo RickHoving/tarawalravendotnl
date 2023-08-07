@@ -11,31 +11,44 @@
     </style>
 </head>   
 <body>
-    <div id="name">
-        <p><a href="index.html">Tara</br>Walraven Borst</br></a></p>
-        <div id="links">
-            <a target="_blank" href="https://www.instagram.com/taraphotography112/"><img src="resources/insta.svg"/></a>
-            <a target="_blank" href="https://www.linkedin.com/in/tara-walraven-borst-01628630/"><img src="resources/linkedin.svg"/></a>
+    <div id="menu" class="full-width">
+        <div class="center">
+            <div id="name">
+                <p><a href="index.html">Tara</br>Walraven Borst</br></a></p>
+                <div id="links">
+                    <a target="_blank" href="https://www.instagram.com/taraphotography112/"><img src="resources/shared/insta.svg"/></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/tara-walraven-borst-01628630/"><img src="resources/shared/linkedin.svg"/></a>
+                </div>
+            </div>
+            <div id="makeup-top"></div>
+            <div class="portfolio" id="portfolio">
+                <a href="pages/portfolio.html"><div class="portfolio-title">Portfolio.</div></a>
+                <div class="portfolio-bar"></div>
+            </div>
+            <!-- <div class="whoami" id="whoami">
+                <a href="pages/whoami.html"><div class="whoami-title">Wie ben ik.</div></a>
+                <div class="whoami-bar"></div>
+            </div> -->
         </div>
     </div>
-    <div id="makeup"></div>
-    <div class="projecten" id="cases">
-        <a href="pages/portfolio.html"><div class="projecten-title">Projecten</div></a>
-        <div class="projecten-bar"></div>
-    </div>
-    <div id="arrowUp" onclick="scrollUp()">
-        <img src="resources/chevron-up.svg" />
-    </div>
-    <div id="mainContainer">
-        <div id="introTextContainer">
-            <p id="introText">
-                Ik ben afgestudeerd als grafisch ontwerper<br> gespecialiseerd in fotografie. </br>
-                Wanneer ik wat moois zie leg ik dat graag vast.<br>Kleur en positie spelen hier een belangrijke rol in.</br>
-                Mijn voorliefde voor minimalisme, voorwerpen en <br>positie laat ik graag terug komen in al mijn ontwerpen.</br>
-            </p>
-            </p>
+    <div id="intro" class="full-width">
+        <div id="introTextContainer" class="center">
+            <div id="intro">
+                <p id="introText-title">
+                    Hallo ik ben Tara<br> een <span id="introText-emph">creatieve designer.</span>
+                </p>
+                <p id="introText">
+                    Ook ben ik gespecialiseerd in fotografie. Wanneer ik wat moois zie leg ik dat graag vast. Kleur en positie spelen hier een belangrijke rol in. Mijn voorliefde voor minimalisme, voorwerpen en positie laat ik graag terug komen in al mijn ontwerpen.
+                </p>
+                <a href="pages/portfolio.html"><button id="showwork">Bekijk werk</button></a>
+            </div>
+            <div id="home-img">
+                <img src="resources/home/home_picture.png" />
+            </div>
         </div>
-        <div id="KPIs">
+    </div>
+    <div class="full-width">
+        <div class="center" id="KPIs" >
             <div id="visualDesign" class="KPI">
                 <p>Visual design</p>
                 <div class="measure">
@@ -61,84 +74,53 @@
                 </div>
             </div>
         </div>
-        <div id="currentCases">
-            <p>Nieuwste projecten</p>
-            <div class="case">
-                <div class="caseText" id="theo">
-                    <p class="title"><a href="pages/theo-case.html">Theo Meijer sport</br>concept</a></p>
-                    <p class="subtitle"><a href="pages/theo-case.html">Visual Design, UI</a></p>
-                    <a href="pages/theo-case.html"><button id="button-theo">Bekijk project</button></a>
-                </div>
-                <div class="casePicture">
-                    <img src="resources/groepslessen600x300.jpg"/>
-                </div>
+    </div>
+    <div id="currentCases-container" class="full-width">
+        <div id="currentCases" class="center">
+            <h1>Love my work</h1>
+            <p>Benieuwd naar mijn werk? Bewonder mijn cases.</p>
+        </div>
+    </div>
+    <div id="showcase" class="full-width">
+        <div class="center">
+            <div class="showcase-item">
+                <img src="resources/home/collaboration.jpg" />
+                <img id="teo" src="resources/home/theobudo.jpg" />
             </div>
-            <div class="case">
-                <div class="caseText" id="funus">
-                    <p class="title"><a href="pages/funus-case.html">Funus website</a></p>
-                    <p class="subtitle"><a href="pages/funus-case.html">Visual Design, Webdesign</a></p>
-                    <a href="pages/funus-case.html"><button id="button-funus">Bekijk project</button></a>
+            <div class="showcase-item">
+                <div id="logo-design">
+                    <div class="design-content">
+                        <h2>Logo design tot</h2>
+                        <h3>concept webdesign</h3>
+                        <div class="watch-work">
+                        <a href="pages/portfolio.html">Bekijk het werk</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="casePicture">
-                    <img src="resources/funus.jpg"/>
-                </div>
+                <img src="resources/home/jppunt.jpg" />
             </div>
-            <div class="projecten" id="project-overzicht">
-                <a href="pages/portfolio.html"><div class="projecten-title">Meer projecten</div></a>
-                <div class="projecten-bar"></div>
+            <div class="showcase-item">
+                <img src="resources/home/liam.jpg" />
+                <div id="sticker-design">
+                    <div class="design-content">
+                        <h2>Fotografie tot</h2>
+                        <h3>sticker uiting</h3>
+                        <div class="watch-work">
+                        <a href="pages/portfolio.html">Bekijk het werk</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="whoAmI">
-        <div id="whoAmIContent">
-            <p id="motivation">
-            </p><div id="experienceAndEducation">
-        <div id="experience">
-                    <p class="title">WERKERVARING</p>
-                    <p class="item">
-                    <b>SOLEOMEDIA APELDOORN</b></br>
-                        Campagne Designer | visual Design
-                        <br>
-                        <b>2017-2019</b>
-                    </p>
-                    <p class="item">
-                        <br><b>TIPPOINT TRADING B.V. HOEVELAKEN</b></br>
-                        Webdesign | Visual Design | UX<br>
-                        <b>2017</b>
-                    </p>
-                    <p class="item">
-                        <br><b>KEITV AMERSFOORT</b></br>
-                        Grafisch ontwerper | Multimedia<br>
-                        <b>2016-2017</b>
-                    </p>
-                    <p class="item">
-                        <br><b>STUDIO ZELDEN AMSTERDAM</b></br>
-                        Allround fotografie<br>
-                        <b>2015-2016</b>
-                    </p>
-                </div>
-                <div id="education">
-                    <p class="title">OPLEIDINGEN</p>
-                    <p class="item">
-                    <b>MBO GRAFISCH LYCEUM UTRECHT</b></br>
-                        Grafisch ontwerper
-                    </p>
-                    <p class="item">
-                    <b>MBO GRAFISCH LYCEUM UTRECHT</b><br>
-                        Medewerker DTP
-                    </p>
-                    <p class="item">
-                    <b>GRAFISCH LYCEUM UTRECHT</b><br>
-                        Grafisch Assistent
-                    </p>
-                </div>
-            </div>
-
-            <div id="footerName">
-                <p>Tara</br>Walraven Borst</br></p>
-                <a href="mailto:tara.walravenborst@hotmail.com">tara.walravenborst@hotmail.com</a>
-            </div>
+    <div class="full-width" id="copyright">
+        <div class="center">
+            <p>© Copyright Tara Walraven Borst 2023</p>
         </div>
+    </div>
+
+    <div id="arrowUp" onclick="scrollUp()">
+        <img src="resources/chevron-up.svg" />
     </div>
 </body>
 </html>
