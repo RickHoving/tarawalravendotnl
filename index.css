@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #18181E;
-  font-family: akagi-pro, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
 
@@ -23,7 +23,9 @@ body {
 }
 
 #introText {
-  padding: 0 30px 50px 0;
+  padding: 0 50px 50px 0;
+  font-size: 16px;
+  line-height: normal;
 }
 
 #introTextContainer {
@@ -49,12 +51,14 @@ body {
 }
 
 #introText-title {
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 
 #introText-title, #introText-emph {
-  font-size: 50px;
+  font-size: 60px;
+  line-height: 60px;
   font-weight: bold;
+  font-family: 'EB Garamond', sans-serif;
 }
 
 #introText-emph {
@@ -78,7 +82,6 @@ body {
 #portfolio, #whoami {
   position: absolute;
   top: 40px;
-  font-weight: bold;
 }
 
 #portfolio {
@@ -133,16 +136,16 @@ body {
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
+  font-family: 'EB Garamond', sans-serif;
 }
 
 #currentCases-container {
   background-color: #5BC4BF;
-  height: 500px;
+  height: 417px;
 }
 
 #currentCases {
   padding-top: 50px;
-  font-weight: bold;
 }
 
 #currentCases > h1 {
@@ -156,6 +159,7 @@ body {
 #currentCases > p {
   margin-top: 25px;
   text-align: center;
+  font-size: 16px;
 }
 
 #arrowUp {
@@ -175,7 +179,7 @@ body {
 
 #copyright > div > p {
   color: #FFFFFF;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 #showcase {
@@ -202,7 +206,10 @@ body {
 }
 
 .design-content > h3 {
-  font-weight: normal;
+  font-weight: bold;
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .design-content{
@@ -210,16 +217,22 @@ body {
   width: 300px;
   padding-left: 30px;
 }
+  
+}
 
 .design-content > h2,
 .design-content > h3 {
   font-size:30px;
 }
 
+.line {
+  border-bottom: 4px solid #5BC4BF;
+  width: 90px;
+}
+
 .watch-work {
-  padding-top: 80px;
-  font-size: 20px;
-  border-bottom: 5px solid #18181E;
+  padding-top: 60px;
+  font-size: 16px;
   width: 180px;
   cursor: pointer;
   align-self: center;
