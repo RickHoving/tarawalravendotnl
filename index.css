@@ -42,11 +42,13 @@ body {
   background-color: #5BC4BF;
   padding: 40px 0;
 }
-#intro, #home-img {
+
+#intro,
+#home-img {
   flex: 1;
 }
 
-#home-img > img {
+#home-img>img {
   width: 100%;
 }
 
@@ -54,7 +56,8 @@ body {
   padding-bottom: 45px;
 }
 
-#introText-title, #introText-emph {
+#introText-title,
+#introText-emph {
   font-size: 60px;
   line-height: 60px;
   font-weight: bold;
@@ -70,7 +73,7 @@ body {
   top: 15px;
 }
 
-#name > p {
+#name>p {
   font-weight: bold;
 }
 
@@ -79,7 +82,8 @@ body {
   font-weight: bold;
 }
 
-#portfolio, #whoami {
+#portfolio,
+#whoami {
   position: absolute;
   top: 40px;
 }
@@ -92,12 +96,12 @@ body {
   right: 50px;
 }
 
-#links{
+#links {
   display: flex;
   align-items: center;
 }
 
-#links > a > img {
+#links>a>img {
   margin: 8px 8px 0 0;
   height: 25px;
   width: 25px;
@@ -109,7 +113,7 @@ body {
   justify-content: space-between;
 }
 
-.KPI > p {
+.KPI>p {
   font-weight: bold;
   font-size: 20px;
 }
@@ -148,7 +152,7 @@ body {
   padding-top: 50px;
 }
 
-#currentCases > h1 {
+#currentCases>h1 {
   font-weight: bolder;
   font-size: 35px;
   width: 100%;
@@ -156,7 +160,7 @@ body {
   color: #FFFFFF;
 }
 
-#currentCases > p {
+#currentCases>p {
   margin-top: 25px;
   text-align: center;
   font-size: 16px;
@@ -166,7 +170,7 @@ body {
   position: fixed;
   right: 30px;
   top: 80vh;
-  z-index: 1;  
+  z-index: 1;
   transition: opacity 0.2s linear;
   cursor: pointer;
 }
@@ -177,7 +181,7 @@ body {
   padding-top: 37px;
 }
 
-#copyright > div > p {
+#copyright>div>p {
   color: #FFFFFF;
   font-size: 14px;
 }
@@ -187,7 +191,7 @@ body {
   top: -200px;
 }
 
-#showcase > .center {
+#showcase>.center {
   display: flex;
   flex-wrap: wrap;
 }
@@ -196,33 +200,32 @@ body {
   width: 33%;
 }
 
-.showcase-item > img {
+.showcase-item>img {
   width: 100%;
 }
 
-#logo-design, #sticker-design {
+#logo-design,
+#sticker-design {
   height: 500px;
-  background-color: rgb(255,250,240);
+  background-color: rgb(255, 250, 240);
 }
 
-.design-content > h3 {
+.design-content>h3 {
   font-weight: bold;
   font-family: 'EB Garamond', sans-serif;
   font-size: 20px;
   margin-top: 10px;
 }
 
-.design-content{
+.design-content {
   padding-top: 80px;
   width: 300px;
   padding-left: 30px;
 }
-  
-}
 
-.design-content > h2,
-.design-content > h3 {
-  font-size:30px;
+.design-content>h2,
+.design-content>h3 {
+  font-size: 30px;
 }
 
 .line {

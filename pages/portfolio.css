@@ -129,3 +129,14 @@ body {
   height: 300px;
   padding-top: 150px;
 }
+
+#copyright {
+  background-color: #18181E;
+  height: 100px;
+  padding-top: 37px;
+}
+
+#copyright > div > p {
+  color: #FFFFFF;
+  font-size: 17px;
+}

@@ -1,0 +1,140 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #18181E;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    background-color: #fafafa;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 1280px;
+}
+
+#intro-title {
+    font-weight: bold;
+    font-family: 'EB Garamond', sans-serif;
+    padding-bottom: 70px;
+}
+
+#intro-content {
+    position: relative;
+    display: flex;
+}
+
+#intro-image {
+    padding-right: 50px;
+}
+
+#img-backdrop {
+    position: absolute;
+    width: 370px;
+    height: 484px;
+    top: 30px;
+    left: -30px;
+    background-color: #5BC4BF;
+    z-index: -1;
+}
+
+#menu {
+    height: 120px;
+}
+
+#intro {
+    padding: 40px 0 150px 0 ;
+}
+
+#intro,
+#home-img {
+    flex: 1;
+}
+
+#home-img>img {
+    width: 100%;
+}
+
+#introText-title {
+    padding-bottom: 45px;
+}
+
+#introText-title,
+#introText-emph {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+#introText-emph {
+    color: #FFFFFF;
+}
+
+#name {
+    position: relative;
+    top: 15px;
+}
+
+#name>p {
+    font-weight: bold;
+}
+
+#name a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#portfolio,
+#whoami {
+    position: absolute;
+    top: 40px;
+}
+
+#portfolio {
+    right: 200px;
+}
+
+#whoami {
+    right: 50px;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+}
+
+#links>a>img {
+    margin: 8px 8px 0 0;
+    height: 25px;
+    width: 25px;
+}
+
+#arrowUp {
+    position: fixed;
+    right: 30px;
+    top: 80vh;
+    z-index: 1;
+    transition: opacity 0.2s linear;
+    cursor: pointer;
+}
+
+#copyright {
+    background-color: #18181E;
+    height: 100px;
+    padding-top: 37px;
+}
+
+#copyright>div>p {
+    color: #FFFFFF;
+    font-size: 14px;
+}
